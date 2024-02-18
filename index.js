@@ -33,6 +33,6 @@ console.log("PORT",PORT)
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => {
-    app.listen(PORT, () => console.log(`Server Running On Port ======> ${PORT}`));
+    app.listen(PORT, () => console.log(`Server Running On Port ========> ${PORT}`));
   })
   .catch((e) => console.log(e, "Error"));
